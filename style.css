@@ -1,0 +1,59 @@
+@media only screen and (max-width:600px){
+    .container{
+        max-width: 80%;
+        padding: 30px;
+    }
+
+    .card {
+        max-width: fit-content;
+    }
+
+}
+
+
+
+body{
+    background-color:#D5E1EF;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#D5E1EF;
+}
+
+.card {
+    background-color:#ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px #a8a8a8;
+    text-align: center;
+    width: 200px;
+  }
+
+img{
+    border-radius: 5%;
+     width: 100%;
+     max-width: 100%;
+}
+
+h4{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1rem;
+}
+
+
+
